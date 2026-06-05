@@ -12,7 +12,7 @@ Bash
 terraform init
 terraform apply -auto-approve
 3. Docker Image Build & Push
-Login to ECR and push the images (Replace <AWS_ID> with 291159641502):
+Login to ECR and push the images (Replace <AWS_ID> with 291159641502)-
 
 Bash
 # Login
