@@ -33,7 +33,7 @@ docker push <AWS_ID>.dkr.ecr.ap-south-1.amazonaws.com/express-frontend:latest
 
 Troubleshooting & Common Issues
 1. Health Check "Unhealthy" Loop
-If the Backend target group shows as unhealthy:
+If the Backend target group shows as unhealthy--
 
 Root Route: Ensure app.py has a @app.route('/') that returns a 200 status code.
 
