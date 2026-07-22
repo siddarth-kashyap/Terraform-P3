@@ -1,4 +1,4 @@
-# 1. The Application Load Balancer
+# 1. The Application Load Balancer ALB
 resource "aws_lb" "main" {
   name               = "app-lb"
   internal           = false
