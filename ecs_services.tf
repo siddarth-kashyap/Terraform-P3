@@ -1,4 +1,4 @@
-# 1. Flask Service
+# 1. Flask_Service
 resource "aws_ecs_service" "flask_service" {
   name            = "flask-service"
   cluster         = aws_ecs_cluster.main.id
