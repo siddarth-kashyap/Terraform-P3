@@ -16,7 +16,7 @@ docker tag flask-backend:latest $REPO_URL/flask-backend:latest
 docker push $REPO_URL/flask-backend:latest
 cd ..
 
-# 3. Build and Push Express (Assuming your folder is named 'express_app')
+# 3. Build and Push Express-(Assuming your folder is named 'express_app')
 cd express_app
 docker build -t express-frontend .
 docker tag express-frontend:latest $REPO_URL/express-frontend:latest
