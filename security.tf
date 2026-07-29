@@ -27,7 +27,7 @@ resource "aws_security_group" "alb_sg" {
   }
 }
 
-# 2. ECS Security Group (Allows traffic ONLY from the ALB to the Containers)
+# 2. ECS Security Group (allows traffic ONLY from the ALB to the Containers)
 resource "aws_security_group" "ecs_sg" {
   name        = "ecs-sg"
   vpc_id      = aws_vpc.main.id
