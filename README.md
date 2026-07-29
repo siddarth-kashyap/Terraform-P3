@@ -44,7 +44,7 @@ Grace Period: Increase health_check_grace_period_seconds in ecs_services.tf if t
 2. Frontend Connection Error
 If the frontend cannot "see" the backend:
 
-Update the Frontend environment variable or API URL to point to the ALB DNS Name at port 5000 (e.g., [http://app-lb-xxxx.ap-south-1.elb.amazonaws.com:5000](http://app-lb-xxxx.ap-south-1.elb.amazonaws.com:5000)).
+-Update the Frontend environment variable or API URL to point to the ALB DNS Name at port 5000 (e.g., [http://app-lb-xxxx.ap-south-1.elb.amazonaws.com:5000](http://app-lb-xxxx.ap-south-1.elb.amazonaws.com:5000)).
 
 Security
 ALB Security Group: Allows public ingress on Port 80 and 5000.
